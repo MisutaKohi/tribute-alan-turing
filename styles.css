@@ -12,26 +12,22 @@ nav {
     height: 40px;
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0 0 20px 0;
     color: whitesmoke;
     display: flex;
     justify-content: left;
     align-items: center;
 }
 
-h1 {
-    
+nav > h1 {
     text-align: right;
     width: 55%;
-    
-    
     overflow: hidden;
 }
 
 nav > ul {
     display: flex;
     width: 45%;
-    
     justify-content: right;
 }
 
@@ -48,9 +44,33 @@ li > a {
 
 .nav-links:hover {
     box-shadow: 0 0 3px 3px black;
+    cursor: pointer;
 }
 
-li > a:hover {
-    
+#oval-background {
+    width: 98%;
+    height: 95%;
+    margin: auto auto;
+    background-color: rgb(240, 217, 194);
+    min-height: 800px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
+img {
+    max-width: 700px;
+}
+
+.opening-info > h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.opening-info > p {
+    text-align: center;
+    margin-top: -15px;
+}
+
+img {
+    margin: 10px auto;
+}
