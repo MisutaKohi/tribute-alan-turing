@@ -19,17 +19,22 @@ nav {
     align-items: center;
 }
 
-nav > h1 {
-    text-align: right;
+.nav-left {
     width: 55%;
-    overflow: hidden;
+    text-align: right;
 }
 
-nav > ul {
-    display: flex;
+.nav-right {
     width: 45%;
+    display: flex;
     justify-content: right;
 }
+
+.nav-right > ul {
+    display: flex;
+    
+}
+
 
 li > a {
     text-decoration: none;
@@ -43,7 +48,7 @@ li > a {
 }
 
 .nav-links:hover {
-    box-shadow: 0 0 3px 3px black;
+    box-shadow: 2px 2px 3px 3px black;
     cursor: pointer;
 }
 
@@ -57,8 +62,11 @@ li > a {
     border-radius: 10px;
 }
 
-img {
+#img {
     max-width: 700px;
+    position: relative;
+    left: 5%;
+    right: 5%;
 }
 
 .opening-info > h1 {
@@ -71,6 +79,9 @@ img {
     margin-top: -15px;
 }
 
-img {
-    margin: 10px auto;
+figure {
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
 }
+
