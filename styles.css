@@ -64,6 +64,7 @@ li > a {
     margin-top: 60px;
     max-width: 800px;
     min-width: 500px;
+    padding-bottom: 15px;
 }
 
 .opening-info {
@@ -113,6 +114,10 @@ figcaption {
     
 }
 
+#tribute-info {
+    padding-top: 20px;
+}
+
 #tribute-info li, #tribute-info-two li {
     margin-left: 0;
 }
@@ -123,4 +128,34 @@ figcaption {
 
 h2 {
     margin-left: 20px;;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0 auto;
+}
+
+#gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#gallery figcaption {
+    max-width: 300px;
+}
+
+li {
+    margin-bottom: 7px;
+}
+
+#tribute-info-two li:last-of-type {
+    padding-bottom: 20px;
 }
