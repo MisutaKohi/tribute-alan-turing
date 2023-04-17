@@ -122,7 +122,7 @@ figcaption {
     margin-left: 0;
 }
 
-#footer {
+#tribute-link {
     text-align: center;
 }
 
@@ -158,4 +158,14 @@ li {
 
 #tribute-info-two li:last-of-type {
     padding-bottom: 20px;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    align-self: center;
+}
+
+#footer {
+    text-align: center;
 }
